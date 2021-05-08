@@ -1,14 +1,6 @@
 gsap.registerPlugin(ScrollTrigger);
 var timeLine = gsap.timeline();
 
-timeLine.from('.scroll-stagger1', {
-    opacity: 0,
-    y: -50,
-    stagger: .3,
-    ease: Power4.easeOut,
-    duration: 2
-}, "-=1.5")
-
 gsap.from('.stagger-animate', {
     opacity: 0,
     duration: 1,
