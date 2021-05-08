@@ -1,0 +1,52 @@
+[
+    {
+        "skillIcon": "fab fa-html5 fa-5x",
+        "skillName": "HTML"
+    },
+    {
+        "skillIcon": "fab fa-css3 fa-5x",
+        "skillName": "CSS"
+    },
+    {
+        "skillIcon": "fab fa-js-square fa-5x",
+        "skillName": "JavaScript"
+    },
+    {
+        "skillIcon": "fab fa-php fa-5x",
+        "skillName": "PHP"
+    },
+
+    {
+        "skillIcon": "fab fa-figma fa-5x",
+        "skillName": "Figma"
+    },
+    {
+        "skillIcon": "fab fa-sass fa-5x",
+        "skillName": "SASS"
+    },
+    {
+        "skillIcon": "fab fa-react fa-5x",
+        "skillName": "React Js"
+    },
+    {
+        "skillIcon": "fab fa-node-js fa-5x",
+        "skillName": "Node Js"
+    },
+
+    {
+        "skillIcon": "fab fa-github fa-5x",
+        "skillName": "Github"
+    },
+    {
+        "skillIcon": "fab fa-bootstrap fa-5x",
+        "skillName": "Bootstrap"
+    },
+    {
+        "skillIcon": "fab fa-angular fa-5x",
+        "skillName": "Angular"
+    },
+    {
+        "skillIcon": "fab fa-aws fa-5x",
+        "skillName": "AWS"
+    }
+]
