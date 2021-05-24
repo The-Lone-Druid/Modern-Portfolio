@@ -90,5 +90,5 @@
         "../scss/components/_contact-section.scss"
     ],
     "names": [],
-    "file": "main.css"
+    "file": "main.min.css"
 }
