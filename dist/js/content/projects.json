@@ -1,24 +1,24 @@
 [
     {
-        "projectImage": "https://zahidshaikh.site/dist/img/project_ambiseek.svg",
+        "projectImage": "https://raw.githubusercontent.com/The-Lone-Druid/Modern-Portfolio/23ac9279d6c0eed5f6c66e05cbbc050d5bc3e6aa/dist/img/project_ambiseek.svg",
         "projectName": "Ambiseek.com",
         "projectInfo": "It is an Internship programs based website, they provide Internship's in Europe for the students in India.",
         "projectLink": "https://www.ambiseek.com"
     },
     {
-        "projectImage": "https://zahidshaikh.site/dist/img/project_theme.svg",
+        "projectImage": "https://raw.githubusercontent.com/The-Lone-Druid/Modern-Portfolio/main/dist/img/project_theme.svg",
         "projectName": "Portfolio Theme",
         "projectInfo": "This is my personal design portfolio made from scratch using HTML/ CSS/ JavaScript & Bootstrap 5.",
         "projectLink": "https://the-lone-druid.github.io/Epic-Portfolio"
     },
     {
-        "projectImage": "https://zahidshaikh.site/dist/img/project_lyfezy.svg",
+        "projectImage": "https://raw.githubusercontent.com/The-Lone-Druid/Modern-Portfolio/main/dist/img/project_lyfezy.svg",
         "projectName": "Lyfezy",
         "projectInfo": "Lyfezy is a design prototype made with figma, This was my first UX/ UI Design project which I received from my friend.",
         "projectLink": "https://www.figma.com/proto/qChmkVrqfhfVRfXETHybiN/Lyfezy-website?node-id=1%3A2&scaling=min-zoom"
     },
     {
-        "projectImage": "https://the-lone-druid.github.io/dist/img/glixcel-log.png",
+        "projectImage": "https://raw.githubusercontent.com/The-Lone-Druid/Modern-Portfolio/main/dist/img/glixcel-logo.png",
         "projectName": "GLIXCEL",
         "projectInfo": "GLIXCEL was my first Internship Project, I was selected as a Front End Developer and manage the whole UI of this project.",
         "projectLink": "https://www.glixcel.com"
