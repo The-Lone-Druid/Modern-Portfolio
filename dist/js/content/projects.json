@@ -18,13 +18,7 @@
         "projectLink": "https://www.figma.com/proto/qChmkVrqfhfVRfXETHybiN/Lyfezy-website?node-id=1%3A2&scaling=min-zoom"
     },
     {
-        "projectImage": "https://zahidshaikh.site/dist/img/project_visual-arts.svg",
-        "projectName": "Visual Arts",
-        "projectInfo": "Visual Arts is also a design prototype made with figma, I like designing my projects before development.",
-        "projectLink": "https://www.figma.com/proto/7wyZhrCxXxdcYowMtMG724/Visual-Arts?node-id=2%3A1&scaling=contain"
-    },
-    {
-        "projectImage": "https://www.glixcel.com/static/assets/img/glixcel_logo.jpeg",
+        "projectImage": "https://the-lone-druid.github.io/dist/img/glixcel-log.png",
         "projectName": "GLIXCEL",
         "projectInfo": "GLIXCEL was my first Internship Project, I was selected as a Front End Developer and manage the whole UI of this project.",
         "projectLink": "https://www.glixcel.com"
