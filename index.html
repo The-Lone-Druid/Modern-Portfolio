@@ -11,38 +11,58 @@
 </head>
 <body>
 
+    
+    <!-- Navbar section -->
     <header>
         <nav class="navbar navbar-dark">
             <div class="container">
                 <a href="./" class="navbar-brand">Zahid Shaikh.</a>
                 <ul class="navbar-nav sidebar me-auto flex-row">
                     <li class="nav-item">
-                        <a href="#home" class="nav-link px-3">
+                        <a href="#home" class="nav-link px-3" onclick="toggleSideBar(false)">
+                            <span class="icon-sm d-lg-none">
+                                <i class="fad fa-home"></i>
+                            </span>
                             Home
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a href="#about" class="nav-link px-3">
+                        <a href="#about" class="nav-link px-3" onclick="toggleSideBar(false)">
+                            <span class="icon-sm d-lg-none">
+                                <i class="fad fa-user-tie"></i>
+                            </span>
                             About
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a href="#projects" class="nav-link px-3">
+                        <a href="#projects" class="nav-link px-3" onclick="toggleSideBar(false)">
+                            <span class="icon-sm d-lg-none">
+                                <i class="fad fa-briefcase"></i>
+                            </span>
                             Projects
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a href="#skills" class="nav-link px-3">
+                        <a href="#skills" class="nav-link px-3" onclick="toggleSideBar(false)">
+                            <span class="icon-sm d-lg-none">
+                                <i class="fad fa-code"></i>
+                            </span>
                             Skills
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a href="#services" class="nav-link px-3">
+                        <a href="#services" class="nav-link px-3" onclick="toggleSideBar(false)">
+                            <span class="icon-sm d-lg-none">
+                                <i class="fad fa-tools"></i>
+                            </span>
                             Services
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a href="#contact" class="nav-link px-3">
+                        <a href="#contact" class="nav-link px-3" onclick="toggleSideBar(false)">
+                            <span class="icon-sm d-lg-none">
+                                <i class="fad fa-phone"></i>
+                            </span>
                             Contact
                         </a>
                     </li>
@@ -76,7 +96,7 @@
                 </ul>
                 <ul class="navbar-nav d-none menu-container ms-auto flex-row">
                     <li class="nav-item menu-button fs-2">
-                        <a class="nav-link p-0" href="#">
+                        <a class="nav-link p-0">
                             <i class="fas fa-bars"></i>
                         </a>
                     </li>
@@ -88,45 +108,49 @@
 
     <main>
 
+        <!-- Hero section -->
         <section class="hero-section text-light" id="home">
             <div class="container d-flex align-items-center vh-100">
-                <div class="left-part">
-                    <h1 class="section-title fw-bold mb-3 display-4 gradient-text stagger-animate">
-                        Beautifully Crafted <br> Web Experiences
-                    </h1>
-                    <h3 class="stagger-animate">
-                        Web Developer, UX/ UI Designer & Programmer
-                    </h3>
-                    <div class="call-to-action d-flex mt-4 stagger-animate">
-                        <a href="#projects" class="nav-link ps-lg-0">
-                            <button class="btn btn-lg btn-outline-orange shadow-sm">
-                                Projects
-                            </button>
-                        </a>
-                        <a href="#services" class="nav-link">
-                            <button class="btn btn-lg btn-pink shadow-sm">
-                                Services
-                            </button>
-                        </a>
+                <div class="row align-items-center flex-lg-row flex-column-reverse">
+                    <div class="col-lg-6 left-part text-lg-start text-center">
+                        <h1 class="section-title fw-bold mb-3 display-4 gradient-text stagger-animate">
+                            Beautifully Crafted <br> Web Experiences
+                        </h1>
+                        <h3 class="stagger-animate">
+                            Web Developer, UX/ UI Designer & Programmer
+                        </h3>
+                        <div class="call-to-action d-flex mt-4 justify-content-lg-start justify-content-center stagger-animate">
+                            <a href="#projects" class="nav-link ps-lg-0">
+                                <button class="btn btn-lg btn-outline-orange">
+                                    Projects
+                                </button>
+                            </a>
+                            <a href="#services" class="nav-link">
+                                <button class="btn btn-lg btn-pink">
+                                    Services
+                                </button>
+                            </a>
+                        </div>
+                        <div class="scroll-down stagger-animate">
+                            <svg class="scroll scroll-stagger1" width="40" height="77" viewBox="0 0 40 77" style="transform: translate(0px, 0px); opacity: 1;">
+                                <g id="scroll" transform="translate(-253 -787)">
+                                  <g id="Rectangle_12" data-name="Rectangle 12" transform="translate(253 787)" fill="none" stroke="#fff" stroke-width="4">
+                                    <rect width="40" height="77" rx="20" stroke="none"></rect>
+                                    <rect x="2" y="2" width="36" height="73" rx="18" fill="none"></rect>
+                                  </g>
+                                  <circle class="circle" id="Ellipse_1" data-name="Ellipse 1" cx="11" cy="11" r="11" transform="translate(262 798)" fill="#fff"></circle>
+                                </g>
+                            </svg>
+                        </div>
                     </div>
-                    <div class="scroll-down stagger-animate">
-                        <svg class="scroll scroll-stagger1" width="40" height="77" viewBox="0 0 40 77" style="transform: translate(0px, 0px); opacity: 1;">
-                            <g id="scroll" transform="translate(-253 -787)">
-                              <g id="Rectangle_12" data-name="Rectangle 12" transform="translate(253 787)" fill="none" stroke="#fff" stroke-width="4">
-                                <rect width="40" height="77" rx="20" stroke="none"></rect>
-                                <rect x="2" y="2" width="36" height="73" rx="18" fill="none"></rect>
-                              </g>
-                              <circle class="circle" id="Ellipse_1" data-name="Ellipse 1" cx="11" cy="11" r="11" transform="translate(262 798)" fill="#fff"></circle>
-                            </g>
-                        </svg>
+                    <div class="col-lg-6 right-part">
+                        <img src="https://raw.githubusercontent.com/The-Lone-Druid/Modern-Portfolio/23ac9279d6c0eed5f6c66e05cbbc050d5bc3e6aa/dist/img/appminded.svg" width="100" class="w-100 px-lg-0 px-5 lazyload">
                     </div>
-                </div>
-                <div class="right-part">
-                    <img src="https://raw.githubusercontent.com/The-Lone-Druid/Modern-Portfolio/23ac9279d6c0eed5f6c66e05cbbc050d5bc3e6aa/dist/img/appminded.svg" class="w-100 lazyload">
                 </div>
             </div>
         </section>
         
+        <!-- About section -->
         <section class="about text-light vh-custom" id="about">
             <div class="container">
                 <h2 class="section-heading">About Me</h2>
@@ -144,12 +168,12 @@
                         </p>
                         <div class="call-to-action d-flex mt-4 justify-content-center justify-content-lg-start">
                             <a href="https://zahidshaikh.site/dist/img/resume.pdf" class="nav-link p-0 me-4" target="_blank">
-                                <button class="btn btn-outline-orange shadow-sm">
+                                <button class="btn btn-outline-orange">
                                     Download CV
                                 </button>
                             </a>
                             <a href="#contact" class="nav-link p-0">
-                                <button class="btn btn-pink shadow-sm">
+                                <button class="btn btn-pink">
                                     Contact Me
                                 </button>
                             </a>
@@ -159,6 +183,7 @@
             </div>
         </section>
 
+        <!-- Projects section -->
         <section class="projects text-light vh-custom" id="projects">
             <div class="container">
                 <h2 class="section-heading">My Projects</h2>
@@ -168,6 +193,7 @@
             </div>
         </section>
 
+        <!-- Skills section -->
         <section class="skills text-light vh-custom" id="skills">
             <div class="container">
                 <h2 class="section-heading">My Skills</h2>
@@ -177,6 +203,7 @@
             </div>
         </section>
 
+        <!-- Services section -->
         <section class="services text-light vh-custom" id="services">
             <div class="container">
                 <h2 class="section-heading">My Services</h2>
@@ -186,6 +213,7 @@
             </div>
         </section>
 
+        <!-- Contact section -->
         <section class="contact text-light vh-custom" id="contact">
             <div class="container">
                 <h2 class="section-heading">Contact</h2>
@@ -212,10 +240,10 @@
                                     <label for="contactNumber">Contact Number</label>
                                     <input type="text" id="contactNumber" name="contactNumber" required>
                                 </div>
-                                <button class="btn shadow-sm btn-light" type="submit" id="submit">
+                                <button class="btn btn-light" type="submit" id="submit">
                                     Send Message
                                 </button>
-                                <button class="btn shadow-sm btn-outline-light" id="clearFields">
+                                <button class="btn btn-outline-light" id="clearFields">
                                     Clear Fields
                                 </button>
                             </form>
@@ -227,6 +255,8 @@
 
     </main>
 
+    
+    <!-- Footer section -->
     <footer class="bg-dark text-center py-2 bg-gradient text-light">
         <label class="gradient-text">
             Copyright &copy; 2021<br>
@@ -237,10 +267,10 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js" integrity="sha512-cdV6j5t5o24hkSciVrb8Ki6FveC2SgwGfLE31+ZQRHAeSRxYhAQskLkq3dLm8ZcWe1N3vBOEYmmbhzf7NTtFFQ==" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/ScrollTrigger.min.js" integrity="sha512-Q+G390ZU2qKo+e4q+kVcJknwfGjKJOdyu5mVMcR95NqL6XaF4lY4nsSvIVB3NDP54ACsS9rqhE1DVqgpApl//Q==" crossorigin="anonymous"></script>
-    <script src="dist/js/bootstrap.js"></script>
-    <script src="dist/js/content/easyHTTP.js"></script>
-    <script src="dist/js/gsap.js"></script>
-    <script src="dist/js/app.js"></script>
-    <script src="dist/js/lazysizes.min.js" async=""></script>
+    <script src="https://zahidshaikh.site/dist/js/bootstrap.js"></script>
+    <script src="https://zahidshaikh.site/dist/js/content/easyHTTP.js"></script>
+    <script src="https://zahidshaikh.site/dist/js/gsap.js"></script>
+    <script src="https://zahidshaikh.site/dist/js/app.js"></script>
+    <script src="https://zahidshaikh.site/dist/js/lazysizes.min.js" async=""></script>
 </body>
 </html>

@@ -12487,6 +12487,10 @@ body {
   background-image: linear-gradient(90deg, #0d6efd, #6610f2, #d63384);
 }
 
+body, html {
+  overflow-x: hidden !important;
+}
+
 .section-heading::after {
   content: "";
   background: -webkit-gradient(linear, left top, right top, from(#0dcaf0), color-stop(#20c997), to(#d63384));
@@ -12505,6 +12509,14 @@ body {
   -webkit-transition: all 0.3s ease-out !important;
   transition: all 0.3s ease-out !important;
   z-index: 999;
+}
+
+.navbar .icon-sm {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  width: 30px;
 }
 
 .navbar .navbar-brand {
@@ -12589,32 +12601,9 @@ body {
 }
 
 @media (max-width: 992px) {
-  .hero-section .right-part {
-    display: none;
-  }
-  .hero-section .left-part {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    text-align: center;
-    background: -webkit-gradient(linear, left top, left bottom, from(#000000ab), to(#000000ab)), url("../img/appminded.svg") center center no-repeat;
-    background: linear-gradient(#000000ab, #000000ab), url("../img/appminded.svg") center center no-repeat;
-    background-size: cover;
-    padding: 30px 0px;
-    border-radius: 10px;
-  }
-  .hero-section .left-part h3, .hero-section .left-part .h3 {
-    margin-top: 15px !important;
-  }
-  .hero-section .left-part .call-to-action {
-    text-align: center;
+  .hero-section .vh-100 {
+    height: auto !important;
+    padding: 80px 0px 100px 0px;
   }
 }
 
@@ -12828,4 +12817,3 @@ body {
 .contact .contact-details .nav-link {
   color: white;
 }
-/*# sourceMappingURL=main.css.map */
