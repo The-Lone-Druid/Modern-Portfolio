@@ -1,0 +1,24 @@
+{
+    "short_name": "Zahid Shaikh",
+    "name": "Portfolio: of Zahid Shaikh",
+    "icons": [
+      {
+        "src": "https://raw.githubusercontent.com/The-Lone-Druid/Modern-Portfolio/23ac9279d6c0eed5f6c66e05cbbc050d5bc3e6aa/dist/img/favicon.svg",
+        "type": "image/svg",
+        "sizes": "192x192"
+      },
+      {
+        "src": "https://raw.githubusercontent.com/The-Lone-Druid/Modern-Portfolio/23ac9279d6c0eed5f6c66e05cbbc050d5bc3e6aa/dist/img/favicon.svg",
+        "type": "image/svg",
+        "sizes": "512x512"
+      }
+    ],
+    "start_url": "./",
+    "background_color": "#3367D6",
+    "display": "standalone",
+    "scope": "/",
+    "theme_color": "#3367D6",
+    "shortcuts": [],
+    "description": "Zahid shaikh's personal portfolio which contains few amazing projects.",
+    "screenshots": []
+}
