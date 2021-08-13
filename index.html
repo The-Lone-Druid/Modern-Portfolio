@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="manifest" href="/manifest.json">
-    <link rel="shortcut icon" href="https://raw.githubusercontent.com/The-Lone-Druid/Modern-Portfolio/23ac9279d6c0eed5f6c66e05cbbc050d5bc3e6aa/dist/img/favicon.svg" type="image/x-icon">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="manifest" href="manifest.json">
+    <!-- <link rel="shortcut icon" href="https://raw.githubusercontent.com/The-Lone-Druid/Modern-Portfolio/23ac9279d6c0eed5f6c66e05cbbc050d5bc3e6aa/dist/img/favicon.svg" type="image/x-icon"> -->
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
     <link rel="stylesheet" href="dist/css/main.css">
     <title>Zahid Shaikh</title>
@@ -145,7 +146,7 @@
                         </div>
                     </div>
                     <div class="col-lg-6 right-part">
-                        <img src="https://raw.githubusercontent.com/The-Lone-Druid/Modern-Portfolio/23ac9279d6c0eed5f6c66e05cbbc050d5bc3e6aa/dist/img/appminded.svg" width="100" class="w-100 px-lg-0 px-5 lazyload">
+                        <img src="https://raw.githubusercontent.com/The-Lone-Druid/Modern-Portfolio/23ac9279d6c0eed5f6c66e05cbbc050d5bc3e6aa/dist/img/appminded.svg" width="100" alt="hero-image" class="w-100 px-lg-0 px-5 lazyload">
                     </div>
                 </div>
             </div>
@@ -273,5 +274,11 @@
     <script src="https://zahidshaikh.site/dist/js/gsap.js"></script>
     <script src="https://zahidshaikh.site/dist/js/app.js"></script>
     <script src="https://zahidshaikh.site/dist/js/lazysizes.min.js" async=""></script>
+    <script>
+        // Service worker
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('/service-worker.js');
+        }
+    </script>
 </body>
 </html>
