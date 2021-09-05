@@ -8188,6 +8188,16 @@ fieldset:disabled .btn {
   padding-bottom: 3rem !important;
 }
 
+.ps-custom-5 {
+  padding-left: 8rem;
+}
+
+@media (max-width: 750px) {
+  .ps-custom-5 {
+    padding-left: 0rem !important;
+  }
+}
+
 .ps-0 {
   padding-left: 0 !important;
 }
@@ -11472,6 +11482,12 @@ fieldset:disabled .btn {
   -moz-text-fill-color: transparent;
 }
 
+.gradient-text-banner {
+  background: -webkit-linear-gradient(180deg, #ffffff, #ff95ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .gradient-text-multi {
   background-color: #f3ec78;
   background-image: linear-gradient(133deg, #d63384, #6610f2);
@@ -11614,8 +11630,8 @@ fieldset:disabled .btn {
 
 .btn-pink {
   color: #fff;
-  background-color: #d63384;
-  border-color: #d63384;
+  background-color: #ff48a3;
+  border-color: #ff48a3;
 }
 
 .btn-pink:hover {
@@ -12193,14 +12209,14 @@ fieldset:disabled .btn {
 }
 
 .btn-outline-orange {
-  color: #fd7e14;
-  border-color: #fd7e14;
+  color: #ffb67a;
+  border-color: #ffb67a;
 }
 
 .btn-outline-orange:hover {
   color: #000;
-  background-color: #fd7e14;
-  border-color: #fd7e14;
+  background-color: #ffa358;
+  border-color: #ffa358;
 }
 
 .btn-check:focus + .btn-outline-orange, .btn-outline-orange:focus {
