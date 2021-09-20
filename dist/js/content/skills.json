@@ -42,11 +42,11 @@
         "skillName": "Bootstrap"
     },
     {
-        "skillIcon": "fab fa-angular fa-5x",
-        "skillName": "Angular"
+        "skillIcon": "fab fa-python fa-5x",
+        "skillName": "Python"
     },
     {
-        "skillIcon": "fab fa-aws fa-5x",
-        "skillName": "AWS"
+        "skillIcon": "fas fa-flask fa-5x",
+        "skillName": "Flask"
     }
 ]
