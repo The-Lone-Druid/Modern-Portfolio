@@ -3012,7 +3012,7 @@ textarea.form-control-lg {
   width: 100%;
   margin-top: 0.25rem;
   font-size: 0.875em;
-  color: #dc3545;
+  color: #ffa7b0;
 }
 
 .invalid-tooltip {
@@ -12754,57 +12754,6 @@ body, html {
 .services .service-card .service-text {
   margin-top: 15px;
   text-align: center;
-}
-
-.contact .contact-form,
-.contact .contact-details {
-  background: linear-gradient(150deg, #d63384, #6610f2);
-  -webkit-box-shadow: 24px 12px 68px #0000002f;
-          box-shadow: 24px 12px 68px #0000002f;
-  padding: 1.8em;
-  border-radius: 10px;
-  height: 100%;
-}
-
-.contact .contact-form .input-field {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: column;
-          flex-flow: column;
-  width: 100%;
-  padding: 0px 10px;
-  margin: 20px 0px;
-}
-
-.contact .contact-form .input-field input {
-  border: none;
-  outline: none;
-  background: transparent;
-  color: white;
-  border-bottom: 2px solid #dee2e6;
-}
-
-.contact .contact-form .input-field input::-webkit-input-placeholder {
-  color: white;
-}
-
-.contact .contact-form .input-field input:-ms-input-placeholder {
-  color: white;
-}
-
-.contact .contact-form .input-field input::-ms-input-placeholder {
-  color: white;
-}
-
-.contact .contact-form .input-field input::placeholder {
-  color: white;
-}
-
-.contact .contact-form .input-field input:focus {
-  border-bottom: 2px solid #0dcaf0;
 }
 
 .contact .contact-details {

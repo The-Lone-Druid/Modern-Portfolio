@@ -227,24 +227,28 @@
                     <div class="col-lg-8 mt-5 col-md-12">
                         <div class="contact-form">
                             <h3 class="gradient-text">Send a message.</h3>
-                            <form action="https://formspree.io/f/xjvjgqbj" method="POST">
-                                <div class="row-one d-flex flex-column flex-md-row">
-                                    <div class="input-field mb-0">
+                            <form action="https://formspree.io/f/xjvjgqbj" class="needs-validation" method="POST" novalidate>
+                                <div class="row-one d-flex flex-column flex-md-row mt-md-4 mt-0">
+                                    <div class="form-group mb-0 w-100 me-md-4 me-0">
                                         <label for="firstName">First Name</label>
-                                        <input type="text" id="firstName" name="firstName" required>
+                                        <input type="text" id="firstName" name="firstName" class="form-control" required>
                                     </div>
-                                    <div class="input-field mb-0">
+                                    <div class="form-group mb-0 w-100 mt-md-0 mt-4">
                                         <label for="lastName">Last Name</label>
-                                        <input type="text" id="lastName" name="lastName" required>
+                                        <input type="text" id="lastName" name="lastName" class="form-control" required>
                                     </div>
                                 </div>
-                                <div class="input-field">
+                                <div class="form-group mt-4">
                                     <label for="emailAddress">Email Address</label>
-                                    <input type="text" id="emailAddress" name="emailAddress" required>
+                                    <input type="email" id="emailAddress" name="emailAddress" class="form-control" required>
                                 </div>
-                                <div class="input-field">
+                                <div class="form-group mt-4">
                                     <label for="contactNumber">Contact Number</label>
-                                    <input type="text" id="contactNumber" name="contactNumber" required>
+                                    <input type="tel" id="contactNumber" name="contactNumber" class="form-control" required>
+                                </div>
+                                <div class="form-group my-4">
+                                    <label for="message">Message</label>
+                                    <textarea name="message" id="message" rows="5" class="form-control" placeholder="Writ your message" required></textarea>
                                 </div>
                                 <button class="btn btn-light" type="submit" id="submit">
                                     Send Message
@@ -278,11 +282,30 @@
     <script src="https://zahidshaikh.site/dist/js/gsap.js"></script>
     <script src="https://zahidshaikh.site/dist/js/app.js"></script>
     <script src="https://zahidshaikh.site/dist/js/lazysizes.min.js" async=""></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@emretulek/jbvalidator"></script>
     <script>
         // Service worker
         if ('serviceWorker' in navigator) {
             navigator.serviceWorker.register('/service-worker.js');
         }
+
+        $(function (){
+
+            let validator = $('form.needs-validation').jbvalidator({
+                errorMessage: true,
+                successClass: true,
+                language: "https://emretulek.github.io/jbvalidator/dist/lang/en.json"
+            });
+
+            // custom validate method
+            validator.validator.custom = function(el, event){
+                if($(el).is('[name=password]') && $(el).val().length < 5){
+                    return 'Your password is too weak.';
+                }
+            }
+
+        });
     </script>
 </body>
 </html>
