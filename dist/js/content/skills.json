@@ -48,5 +48,17 @@
     {
         "skillIcon": "fas fa-flask fa-5x",
         "skillName": "Flask"
+    },
+    {
+        "skillIcon": "fab fa-wordpress fa-5x",
+        "skillName": "Wordpress"
+    },
+    {
+        "skillIcon": "fab fa-angular fa-5x",
+        "skillName": "Angular"
+    },
+    {
+        "skillIcon": "fab fa-git-alt fa-5x",
+        "skillName": "Git"
     }
 ]
