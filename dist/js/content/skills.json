@@ -29,10 +29,9 @@
         "skillName": "React Js"
     },
     {
-        "skillIcon": "fab fa-node-js fa-5x",
-        "skillName": "Node Js"
+        "skillIcon": "fab fa-angular fa-5x",
+        "skillName": "Angular"
     },
-
     {
         "skillIcon": "fab fa-github fa-5x",
         "skillName": "Github"
@@ -52,10 +51,6 @@
     {
         "skillIcon": "fab fa-wordpress fa-5x",
         "skillName": "Wordpress"
-    },
-    {
-        "skillIcon": "fab fa-angular fa-5x",
-        "skillName": "Angular"
     },
     {
         "skillIcon": "fab fa-git-alt fa-5x",
