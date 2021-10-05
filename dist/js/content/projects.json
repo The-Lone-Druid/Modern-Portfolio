@@ -22,5 +22,11 @@
         "projectName": "GLIXCEL",
         "projectInfo": "GLIXCEL was my first Internship Project, I was selected as a Front End Developer and manage the whole UI of this project.",
         "projectLink": "https://www.glixcel.com"
+    },
+    {
+        "projectImage": "https://raw.githubusercontent.com/The-Lone-Druid/Modern-Portfolio/main/dist/img/glixcel-logo.png",
+        "projectName": "BetaRisk CRM",
+        "projectInfo": "At BetaRisk I've customized and developed the whole Front-end in React(Ts) framework.",
+        "projectLink": "no-website"
     }
 ]
