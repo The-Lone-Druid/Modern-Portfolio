@@ -11483,7 +11483,7 @@ fieldset:disabled .btn {
 }
 
 .gradient-text-banner {
-  background: -webkit-linear-gradient(180deg, #ffffff, #ff95ff);
+  background: -webkit-linear-gradient(180deg, #ffffff, #95aeff);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -11500,7 +11500,7 @@ fieldset:disabled .btn {
 
 .bg-glassmorphic {
   background: -webkit-gradient(linear, left top, left bottom, from(#8400ff2f), to(#8400ff2f));
-  background: linear-gradient(#8400ff2f, #8400ff2f);
+  background: linear-gradient(#15112bc0, #15112bc0);
   -webkit-backdrop-filter: blur(10px);
           backdrop-filter: blur(10px);
 }
@@ -12486,7 +12486,7 @@ fieldset:disabled .btn {
 
 ::-webkit-scrollbar {
   width: 10px;
-  background: #d63384;
+  background: #15162e;
 }
 
 ::-webkit-scrollbar-track {
@@ -12495,12 +12495,12 @@ fieldset:disabled .btn {
 
 ::-webkit-scrollbar-thumb {
   border-radius: 10px;
-  background: #efadce;
+  background: #3714b4;
 }
 
 body {
   background-image: -webkit-gradient(linear, left top, right top, from(#0d6efd), color-stop(#6610f2), to(#d63384));
-  background-image: linear-gradient(90deg, #0d6efd, #6610f2, #d63384);
+  background-image: linear-gradient(90deg, #151527, #161020);
 }
 
 body, html {
@@ -12643,7 +12643,7 @@ body, html {
 .projects .project-card .project-image {
   height: 250px;
   width: 200px;
-  background: linear-gradient(133deg, rgba(214, 51, 132, 0.7), rgba(102, 16, 242, 0.7));
+  background: linear-gradient(133deg, #343446, #1f1a30);
   -webkit-transform: translate3d(-100px, 0, 0);
           transform: translate3d(-100px, 0, 0);
   border-radius: 10px;
