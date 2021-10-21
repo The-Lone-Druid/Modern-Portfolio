@@ -12732,7 +12732,7 @@ body, html {
           justify-content: center;
   height: 200px;
   width: 200px;
-  background: linear-gradient(133deg, rgba(214, 51, 132, 0.7), rgba(102, 16, 242, 0.7));
+  background: linear-gradient(133deg, #343446, #1f1a30);
   border-radius: 10px;
   -webkit-box-shadow: 24px 8px 68px rgba(0, 0, 0, 0.25);
           box-shadow: 24px 8px 68px rgba(0, 0, 0, 0.25);
@@ -12743,7 +12743,7 @@ body, html {
 }
 
 .services .service-card {
-  background: linear-gradient(133deg, #d63384, #6610f2);
+  background: linear-gradient(133deg, #343446, #1f1a30);
   padding: 2em 1.5em;
   border-radius: 10px;
   -webkit-box-shadow: 24px 12px 68px #0000002f;
