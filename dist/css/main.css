@@ -4394,6 +4394,12 @@ fieldset:disabled .btn {
   padding-bottom: 15px;
 }
 
+.navbar-brand-icon {
+  height: 40px;
+  width: 40px;
+  background: linear-gradient(133deg, #343446, #1f1a30);
+}
+
 .navbar > .container,
 .navbar > .container-fluid, .navbar > .container-sm, .navbar > .container-md, .navbar > .container-lg, .navbar > .container-xl, .navbar > .container-xxl {
   display: -webkit-box;
