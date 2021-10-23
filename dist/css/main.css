@@ -12502,6 +12502,7 @@ fieldset:disabled .btn {
 ::-webkit-scrollbar-thumb {
   border-radius: 10px;
   background: #3714b4;
+  background-image: var(--bs-gradient) !important;
 }
 
 body {
@@ -12782,5 +12783,15 @@ body, html {
 }
 
 .contact .contact-details .nav-link {
+  color: white;
+}
+
+.contact .contact-form {
+  background: linear-gradient(133deg, #343446, #1f1a30);
+  border-radius: 10px;
+}
+
+.contact .contact-form .form-control {
+  background: transparent;
   color: white;
 }
