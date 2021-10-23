@@ -28,5 +28,11 @@
         "projectName": "BetaRisk CRM",
         "projectInfo": "At BetaRisk, my task was to customize the UI of the website acording to the PSD.",
         "projectLink": "https://www.betarisk.com/home"
+    },
+    {
+        "projectImage": "dist/img/driversinindia-logo.png",
+        "projectName": "Drivers In India",
+        "projectInfo": "I helped one of my colleague to design the UI of the website which was made on wordpress.",
+        "projectLink": "http://eos.rightbraininfotech.in/drivers/"
     }
 ]
